@@ -8,7 +8,7 @@ A Gradle plugin and a GitHub Action that fail the build when a resolved dependen
 
 A promise in a README is worth nothing. This is the enforcement that makes the no-GMS claim checkable by anyone.
 
-Part of the [Nijatva](https://vasudev-work.github.io) suite by **DEVIRA**.
+Part of the [Nijatva](https://nijatva.github.io) suite.
 
 ## Status
 
