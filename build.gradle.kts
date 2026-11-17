@@ -3,6 +3,10 @@ plugins {
     id("maven-publish")
 }
 
+repositories {
+    mavenCentral()
+}
+
 group = "in.nijatva"
 version = "0.1.0"
 
