@@ -1,7 +1,10 @@
-# no-gms-check
+# nijatva-guard
 
-A Gradle plugin that fails the build if Google Play Services or Firebase is on
-any classpath. The suite's promise is that no app links them; this is the thing
+> Formerly `no-gms-check`. Renamed 26 November 2026, before the first publish —
+> so no consumer had to change a dependency.
+
+A Gradle plugin that fails the build if Google Play Services, Firebase, Play Core, or an
+ad/analytics SDK is on any classpath. The suite's promise is that no app links them; this is the thing
 that makes the promise a build failure instead of a good intention.
 
 ```kotlin

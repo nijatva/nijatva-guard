@@ -18,11 +18,11 @@ java {
 
 gradlePlugin {
     plugins {
-        create("noGmsCheck") {
-            id = "in.nijatva.no-gms-check"
-            implementationClass = "in.nijatva.nogms.NoGmsCheckPlugin"
-            displayName = "Nijatva no-GMS check"
-            description = "Fails the build if a Google Play Services or Firebase artefact is present."
+        create("guard") {
+            id = "in.nijatva.guard"
+            implementationClass = "in.nijatva.guard.GuardPlugin"
+            displayName = "Nijatva Guard"
+            description = "Fails the build if Google Play Services, Firebase, Play Core or an ad/analytics SDK is present."
         }
     }
 }

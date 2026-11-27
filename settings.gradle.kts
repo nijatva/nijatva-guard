@@ -1,1 +1,1 @@
-rootProject.name = "no-gms-check"
+rootProject.name = "nijatva-guard"
