@@ -34,7 +34,7 @@ class GuardPluginTest {
         BuildResult result = runner("""
                 plugins {
                     java
-                    id("in.nijatva.nijatva-guard")
+                    id("in.nijatva.guard")
                 }
                 repositories { mavenCentral() }
                 dependencies { implementation("org.slf4j:slf4j-api:2.0.13") }
@@ -49,7 +49,7 @@ class GuardPluginTest {
         GradleRunner runner = runner("""
                 plugins {
                     java
-                    id("in.nijatva.nijatva-guard")
+                    id("in.nijatva.guard")
                 }
                 repositories {
                     mavenCentral()
@@ -71,7 +71,7 @@ class GuardPluginTest {
         BuildResult result = runner("""
                 plugins {
                     java
-                    id("in.nijatva.nijatva-guard")
+                    id("in.nijatva.guard")
                 }
                 repositories {
                     mavenCentral()
